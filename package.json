@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Jono Warren",
+  "repository": "nmec/stockfighter",
   "license": "ISC",
   "dependencies": {
     "bluebird": "^3.0.6",
