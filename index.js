@@ -1,10 +1,16 @@
 'use strict';
 
 require('dotenv').load();
+const Level = require('./lib/level');
+const Stocks = require('./lib/stocks');
 
-const status = require('./lib/status');
+const key = process.env.API_KEY;
+const levelName = process.argv[2];
 
-status.api().then(res => {
-  const apiStatus = (res) ? 'up' : 'down';
-  console.log( `API is ${apiStatus}` );
+const game = new Level(key);
+const stocks = new Stocks(key);
+const playLevel = require(`./levels/${levelName}`);
+
+game.start(levelName).then(() => {
+  playLevel(game, stocks);
 });
