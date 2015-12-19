@@ -18,12 +18,12 @@ Node.js lib and solutions for [Stockfighter](https://www.stockfighter.io).
 - [x] Full Public WS API coverage
   - [x] `/ws/:trading_account/venues/:venue/tickertape`
   - [x] `/ws/:trading_account/venues/:venue/executions`
-- [ ] Full GM REST API coverage
-  - [ ] POST `/gm/levels/:level`
-  - [ ] POST `/gm/instances/:instance/restart`
-  - [ ] POST `/gm/instances/:instance/stop`
-  - [ ] POST `/gm/instances/:instance/resume`
-  - [ ] GET `/gm/instances/:instance`
+- [x] Full GM REST API coverage
+  - [x] POST `/gm/levels/:level`
+  - [x] POST `/gm/instances/:instance/restart`
+  - [x] POST `/gm/instances/:instance/stop`
+  - [x] POST `/gm/instances/:instance/resume`
+  - [x] GET `/gm/instances/:instance`
 - [ ] Level solutions
   - [ ] 1
   - [ ] 2
