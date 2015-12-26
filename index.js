@@ -14,3 +14,5 @@ const playLevel = require(`./levels/${levelName}`);
 game.start(levelName).then(() => {
   playLevel(game, stocks);
 });
+})
+.catch(console.error);
