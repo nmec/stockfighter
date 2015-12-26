@@ -25,6 +25,6 @@ Node.js lib and solutions for [Stockfighter](https://www.stockfighter.io).
   - [x] POST `/gm/instances/:instance/resume`
   - [x] GET `/gm/instances/:instance`
 - [ ] Level solutions
-  - [ ] 1
-  - [ ] 2
+  - [x] 1
+  - [x] 2
   - [ ] 3
