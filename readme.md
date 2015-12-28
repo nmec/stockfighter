@@ -27,4 +27,7 @@ Node.js lib and solutions for [Stockfighter](https://www.stockfighter.io).
 - [ ] Level solutions
   - [x] 1
   - [x] 2
-  - [ ] 3
+  - [x] 3
+  - [ ] 4
+  - [ ] 5
+  - [ ] 6
