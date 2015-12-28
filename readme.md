@@ -2,7 +2,7 @@
 
 Node.js lib and solutions for [Stockfighter](https://www.stockfighter.io).
 
-## Todo
+## Progress
 
 - [x] Full Trading REST API coverage
   - [x] GET `/heartbeat`
